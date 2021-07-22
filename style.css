@@ -91,10 +91,14 @@ h1 {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    
   }
   
 .content {
   display: flex;
+  
   flex-wrap: wrap;
   position: relative;
   flex-direction: column;
@@ -105,6 +109,8 @@ h1 {
   padding: 2%;
   margin:2%;
   background:white;
+  height: 100vh;
+  justify-content: space-between;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -185,3 +191,4 @@ h1 {
 .contact, .legal, .open-dates{
   margin-top: 1%;
 }
+

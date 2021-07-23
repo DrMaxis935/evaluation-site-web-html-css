@@ -1,5 +1,14 @@
+.event-main-container{
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+}
 
-.banner-warper{
+.event-wrapper{
+    height: 80vh;
+}
+.banner-warpper{
     display: flex;
     margin-top: 2px;
     width: 100vw;
@@ -8,10 +17,11 @@
   }
 
 .banner{
+    position: relative;
     filter: brightness(40%);
     max-width: 1000px;
     max-height: 720px;
-    min-height: 200px;
+    min-width: 100px;
     -webkit-mask-image:
         -webkit-gradient(linear, left center, right center,
             color-stop(0, transparent),
@@ -20,12 +30,9 @@
             color-stop(.75, black),
             color-stop(.90, rgba(0,0,0,.5)),
             color-stop(1, transparent));
-            
 }
 
-.container{
-    height: 100%;
-}
+
 
 .event-banner-text{
     position: absolute;
@@ -51,7 +58,7 @@
 }
 @media only screen and (max-width: 1920px) {
     .article-container{
-      height: 100vh;
+      height: fit-content;
     }
 }
 

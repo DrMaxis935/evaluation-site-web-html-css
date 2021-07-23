@@ -1,16 +1,17 @@
 .event-main-container{
-    min-height: auto;
     display: flex;
-    justify-content: center;
     flex-direction: column; 
+    justify-content: space-between;
+    flex-grow: 1;
+    height: 100vh;
 }
 
 .event-wrapper{
-    height: 80vh;
+    height: fit-content;
 }
 .banner-warpper{
-    display: flex;
-    margin-top: 2px;
+    display:flex;
+    margin-top: 1px;
     width: 100vw;
     background-color: rgb(50, 25, 25);
     justify-content: center;
